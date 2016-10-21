@@ -10,8 +10,8 @@
 
 	var gitURL = "https://api.github.com/users/Carson777" 
 	// ?access_token=" + ACCESS_TOKEN
-	var gitURLRepo = "https://api.github.com/users/Carson777"
-	// /repos?access_token=" + ACCESS_TOKEN
+	var gitURLRepo = "https://api.github.com/users/Carson777/repos"
+	// ?access_token=" + ACCESS_TOKEN
 
 
 var promise = $.getJSON(gitURL)
