@@ -7,8 +7,13 @@
 // 	var profileUrl = 'https://api.github.com/users/YOUR_USERNAME'
 // }
 
-var gitURL = "https://api.github.com/users/Carson777?access_token=" + ACCESS_TOKEN
-var gitURLRepo = "https://api.github.com/users/Carson777/repos?access_token=" + ACCESS_TOKEN
+
+	var gitURL = "https://api.github.com/users/Carson777" 
+	// ?access_token=" + ACCESS_TOKEN
+	var gitURLRepo = "https://api.github.com/users/Carson777"
+	// /repos?access_token=" + ACCESS_TOKEN
+
+
 var promise = $.getJSON(gitURL)
 var promise2 = $.getJSON(gitURLRepo)
 var email = ""
